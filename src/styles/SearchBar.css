@@ -1,0 +1,38 @@
+/* SearchBar.css */
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;  /* Ensure the search bar is full width */
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;  /* Maximum width for desktop */
+  padding: 12px;  /* Increased padding for better touch on mobile */
+  font-size: 16px;  /* Slightly larger font size for better readability */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #4CAF50;  /* Focus border color */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .search-bar input {
+    max-width: 350px;  /* Slightly smaller max-width on tablets */
+    font-size: 15px;  /* Slightly smaller font size */
+    padding: 12px 16px;  /* Adjust padding for better fit on tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar input {
+    max-width: 100%;  /* Full width on small screens */
+    font-size: 14px;  /* Further reduce font size for mobile */
+    padding: 12px;  /* Keep padding consistent for easy touch on mobile */
+  }
+}

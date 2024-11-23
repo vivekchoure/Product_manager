@@ -1,0 +1,22 @@
+/* AddProductPage.css */
+.add-product-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.add-button {
+  width: 100%;
+  margin-top: 15px;
+}

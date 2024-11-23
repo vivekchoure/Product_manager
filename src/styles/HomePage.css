@@ -1,0 +1,66 @@
+/* Container for the entire HomePage */
+.home-container {
+  padding: 16px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Section Styling */
+.section {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+/* Product List Grid Layout */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards side-by-side */
+  gap: 16px; /* Space between the cards */
+  justify-content: center;
+}
+
+/* Message Styling */
+.no-products-message {
+  font-size: 16px;
+  color: #888;
+  margin: 16px 0;
+}
+
+/* Add Product Button */
+.add-product-button {
+  margin-top: 24px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensure it aligns in the center */
+}
+
+.add-product-button:hover {
+  background-color: #0056b3;
+}
